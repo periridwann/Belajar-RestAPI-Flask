@@ -27,7 +27,7 @@ class ContohResource(Resource):
         kelas = request.form["kelas"]
         identitas["nama"] = nama
         identitas["umur"] = kelas
-        response = {"msg": "Data berhasil dimasukkan"}
+        response = {"msg": "Data sukses bosku"}
         return response
 
 api.add_resource(ContohResource, "/api", methods=["GET", "POST"])
